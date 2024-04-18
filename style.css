@@ -1,6 +1,8 @@
 :root {
     --background-color: #fff;
     --text-color: #000;
+    --button-background-color: #f0f0f0;
+    --button-text-color: #000;
 }
 
 body{
@@ -46,10 +48,11 @@ nav a:hover{
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #f0f0f0;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
     border: none;
     border-radius: 5px;
-    transition: background-color 0.3s, box-shadow 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
 .dark-mode-toggle:hover {
@@ -60,4 +63,6 @@ nav a:hover{
 .dark-mode {
     --background-color: #333;
     --text-color: #fff;
+    --button-background-color: #666;
+    --button-text-color: #fff;
 }
