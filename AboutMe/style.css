@@ -23,6 +23,24 @@ header h1{
     line-height: 80px;
 }
 
+nav {
+    background-color: rgb(219, 164, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(255, 150, 150);
+    color: black;
+}
+
 .dark-mode-toggle {
     position: fixed;
     right: 20px;
