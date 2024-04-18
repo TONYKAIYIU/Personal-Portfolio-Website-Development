@@ -15,7 +15,7 @@ body{
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(255, 134, 42);
 }
 
 header h1{
@@ -24,8 +24,8 @@ header h1{
 }
 
 nav {
-    background-color: darkgrey;
-    text-align: left;
+    background-color: rgb(219, 164, 0);
+    text-align: center;
     padding: 10px;
 }
 
@@ -37,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: lightgray;
+    background-color: rgb(255, 150, 150);
     color: black;
 }
 
