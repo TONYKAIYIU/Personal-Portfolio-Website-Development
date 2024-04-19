@@ -49,7 +49,9 @@ nav a:hover{
     text-align: left;
     background-color: rgb(164, 94, 54);
     padding: 5px;
-    
+    margin: 0 auto;
+    width: auto;
+
 }
 
 .dark-mode-toggle {
