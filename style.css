@@ -52,6 +52,7 @@ nav a:hover{
     margin: 0 auto;
     width: auto;
     bottom: 0px;
+    position: fixed;
 }
 
 .dark-mode-toggle {
