@@ -16,14 +16,14 @@ body{
 
 header {
     background-color: rgb(255, 134, 42);
-    width: auto;
+    width: 805;
     position: fixed;
-    top: auto;
+    top: 0px;
 }
 
 header h1{
     height: 60px;
-    line-height: auto;
+    line-height: 60px;
 }
 
 nav {
