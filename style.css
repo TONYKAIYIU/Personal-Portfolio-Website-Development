@@ -45,6 +45,11 @@ nav a:hover{
     padding: 10px;
 }
 
+.footer{
+    text-align: left;
+    background-color: rgb(164, 94, 54);
+}
+
 .dark-mode-toggle {
     position: fixed;
     right: 20px;
