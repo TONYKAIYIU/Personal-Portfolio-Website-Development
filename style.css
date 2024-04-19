@@ -16,8 +16,7 @@ body{
 
 header {
     background-color: rgb(255, 134, 42);
-    width: 80%;
-    top: 0px;
+    width: auto;
 }
 
 header h1{
