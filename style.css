@@ -41,6 +41,10 @@ nav a:hover{
     color: black;
 }
 
+.intro{
+    padding: 10px;
+}
+
 .dark-mode-toggle {
     position: fixed;
     right: 20px;
