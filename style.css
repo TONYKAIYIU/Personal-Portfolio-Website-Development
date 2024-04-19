@@ -17,11 +17,11 @@ body{
 header {
     background-color: rgb(255, 134, 42);
     width: auto;
+    height: auto;
 }
 
 header h1{
-    height: 60px;
-    line-height: 60px;
+    height: auto;
 }
 
 nav {
