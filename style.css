@@ -8,7 +8,7 @@
 body{
     background-color: var(--background-color);
     color: var(--text-color);
-    width: 700px;
+    width: auto;
     margin: 0 auto;
     text-align: center;
     font-family: fantasy;
