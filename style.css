@@ -20,7 +20,7 @@ header {
 
 header h1{
     height: 100px;
-    line-height: normal;
+    line-height: 100px;
 }
 
 nav {
