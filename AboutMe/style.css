@@ -45,6 +45,14 @@ nav a:hover{
     text-align: center;
 }
 
+.banner{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .img {
     width: 100%;
     height: auto;
