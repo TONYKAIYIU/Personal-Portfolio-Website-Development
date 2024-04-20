@@ -1,16 +1,14 @@
 const darkModeToggle = document.getElementById('darkModeToggle');
 const body = document.body;
 
-// Initially check if dark mode is enabled in local storage
 if (localStorage.getItem('darkMode') === 'enabled') {
     body.classList.add('dark-mode');
-    darkModeToggle.textContent = 'Light Mode'; // Change button text
+    darkModeToggle.textContent = 'Light Mode';
 }
 
 darkModeToggle.addEventListener('click', function() {
     body.classList.toggle('dark-mode');
     
-    // Change button text based on the current mode
     if(body.classList.contains('dark-mode')) {
         darkModeToggle.textContent = 'Light Mode';
         localStorage.setItem('darkMode', 'enabled');
@@ -20,3 +18,22 @@ darkModeToggle.addEventListener('click', function() {
     }
 });
 
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    if (!name || !email || !message) {
+        alert("All fields must be filled out!");
+        event.preventDefault();
+        return;
+    }
+
+    if (message.length < 50) {
+        alert("Message must be at least 50 characters long.");
+        event.preventDefault();
+        return;
+    }
+
+    alert("Form is submitted successfully!");
+});
