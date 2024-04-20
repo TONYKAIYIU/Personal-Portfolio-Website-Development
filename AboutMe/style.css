@@ -41,6 +41,14 @@ nav a:hover{
     color: black;
 }
 
+.aboutme{
+    text-align: center;
+}
+
+.img{
+    width: 30%;
+    height: 30%;
+}
 .footer{
     text-align: left;
     background-color: rgb(164, 94, 54);
