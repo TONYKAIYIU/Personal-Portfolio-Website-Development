@@ -4,7 +4,7 @@ const projects = {
     project1: {
         title: "Basic-WebPage",
         description: "This is the first project I started to learn about html and css.",
-        link: "https://tonykaiyiu.github.io/ISYS3004-basicwebpage/1"
+        link: "https://tonykaiyiu.github.io/ISYS3004-basicwebpage/"
     },
     project2: {
         title: "Rock-Paper-Scissors",
@@ -14,7 +14,7 @@ const projects = {
     project3: {
         title: "Flatland",
         description: "This project is a buzzword machine with different graphic and effect shown, aim to learn a more advance Javascript and interaction between CSS and JS.",
-        link: "hhttps://tonykaiyiu.github.io/ISYS3004-flatland/"
+        link: "https://tonykaiyiu.github.io/ISYS3004-flatland/"
     },
     project4: {
         title: "Todo-list",
