@@ -135,3 +135,36 @@ nav a:hover{
     --button-background-color: #666;
     --button-text-color: #fff;
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.modal-content.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.gallery.dark-mode .img-wrapper {
+    border-color: #ffffff; /* If you have borders */
+}
+
+a:link, a:visited {
+    color: #007bff;
+}
+
+a:hover, a:focus {
+    color: #0056b3;
+}
+
+/* Dark mode link colors */
+body.dark-mode a:link,
+body.dark-mode a:visited {
+    color: #bbdefb; /* Light blue link for better visibility in dark mode */
+}
+
+body.dark-mode a:hover,
+body.dark-mode a:focus {
+    color: #82b1ff; /* Slightly lighter blue for hover state */
+}
