@@ -46,7 +46,7 @@ nav a:hover{
     margin: auto;
     padding: 20px;
     box-shadow: 0 0 10px #ccc;
-    background: white;
+    background: rgb(255, 210, 104);
 }
 
 .contact-form form {
