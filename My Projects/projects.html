@@ -20,6 +20,32 @@
             <a href="../Contact/contact.html">Contact</a> |
         </nav>
     </header>
+
+    <div class="gallery">
+      <div class="img-wrapper" onclick="openModal('Project 1', 'Basic-webpage')">
+          <img src="https://i.imgur.com/R0ZmilS.png" alt="basic-webpage">
+          <p>Project 1: Basic-webpage</p>
+      </div>
+      <div class="img-wrapper" onclick="openModal('Project 2', 'Rock,Paper,Scissors')">
+          <img src="https://i.imgur.com/4qax0i7.png" alt="RPS">
+          <p>Project 2: Rock-Paper-Scissors</p>
+      </div>
+      <div class="img-wrapper" onclick="openModal('Project 3', 'Flatland')">
+        <img src="https://i.imgur.com/cmV3eZD.png" alt="Flatland">
+        <p>Project 3: Flatland</p>
+      </div>
+      <div class="img-wrapper" onclick="openModal('Project 4', 'Todo-list')">
+      <img src="https://i.imgur.com/E1ZJLKQ.png" alt="todolist">
+      <p>Project 4: Todo-list</p>
+    </div>
+
+  <div id="modal" class="modal">
+      <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h1 id="modal-title"></h1>
+          <p id="modal-description"></p>
+      </div>
+  </div>
         
     <button id="darkModeToggle" class="dark-mode-toggle">
             Dark Mode

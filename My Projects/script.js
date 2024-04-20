@@ -20,3 +20,14 @@ darkModeToggle.addEventListener('click', function() {
     }
 });
 
+// script.js
+function openModal(title, description) {
+    document.getElementById('modal-title').innerText = title;
+    document.getElementById('modal-description').innerText = description;
+    document.getElementById('modal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+}
+
