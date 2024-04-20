@@ -46,11 +46,18 @@ nav a:hover{
 }
 
 .banner{
-    width: 80%;
+    width: 100%;
     height: auto;
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.banner img{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .img {
