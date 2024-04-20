@@ -41,6 +41,11 @@ nav a:hover{
     color: black;
 }
 
+.gallery {
+    gap: 10px;
+    padding: 10px;
+}
+
 .img-wrapper {
     cursor: pointer;
     transition: transform 0.2s;
