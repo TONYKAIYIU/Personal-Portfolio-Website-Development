@@ -47,10 +47,7 @@ nav a:hover{
 
 .img {
     width: 100%;
-    max-width: 30%;
     height: auto;
-    border-radius: 10px;
-    margin: 5px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -61,8 +58,6 @@ nav a:hover{
     height: auto;
     border-radius: 10px;
     margin: 5px;
-    justify-content: center;
-    display: flex;
 }
 
 .footer{
