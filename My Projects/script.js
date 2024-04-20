@@ -23,10 +23,9 @@ const projects = {
     }
 };
 
-// Initially check if dark mode is enabled in local storage
 if (localStorage.getItem('darkMode') === 'enabled') {
     body.classList.add('dark-mode');
-    darkModeToggle.textContent = 'Light Mode'; // Change button text
+    darkModeToggle.textContent = 'Light Mode';
 }
 
 darkModeToggle.addEventListener('click', function() {
