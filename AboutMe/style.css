@@ -48,7 +48,6 @@ nav a:hover{
 .img{
     width: 5%;
     height: auto;
-    display: flex;
     border-radius: 10px;
 }
 
