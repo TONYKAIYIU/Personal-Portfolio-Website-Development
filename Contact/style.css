@@ -42,13 +42,11 @@ nav a:hover{
 }
 
 .note{
-    float: left;
     margin: 20px;
     padding: 10px;
 }
 
 .mailbox{
-    float: right;
     margin: 20px;
     padding: 10px;
 }
