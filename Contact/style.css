@@ -41,6 +41,14 @@ nav a:hover{
     color: black;
 }
 
+.note{
+    float: left;
+}
+
+.mailbox{
+    float: right;
+}
+
 .contact-form {
     width: 300px;
     margin: auto;

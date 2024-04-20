@@ -29,8 +29,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         return;
     }
 
-    if (message.length < 50) {
-        alert("Message must be at least 50 characters long.");
+    if (message.length < 10) {
+        alert("Message must be at least 10 characters long.");
         event.preventDefault();
         return;
     }
