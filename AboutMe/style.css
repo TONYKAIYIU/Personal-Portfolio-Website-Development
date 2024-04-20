@@ -49,12 +49,17 @@ nav a:hover{
     width: 50%;
     height: auto;
     border-radius: 10px;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img img{
     width: 50%;
     height: auto;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .footer{
@@ -70,7 +75,7 @@ nav a:hover{
 .dark-mode-toggle {
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 50px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
