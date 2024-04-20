@@ -61,6 +61,10 @@ nav a:hover{
     height: auto;
     border-radius: 10px;
     margin: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .footer{
