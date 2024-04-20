@@ -53,10 +53,11 @@ nav a:hover{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .img img{
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
     border-radius: 10px;
     margin: 5px;
