@@ -87,6 +87,7 @@ nav a:hover{
     width: 100%;
     bottom: 0px;
     text-decoration: none;
+    position: fixed;
 }
 
 .dark-mode-toggle {
